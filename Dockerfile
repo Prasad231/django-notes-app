@@ -4,7 +4,6 @@ WORKDIR /app/backend
 
 COPY requirements.txt /app/backend
 
-
 # Install app dependencies
 #RUN pip install mysqlclient
 RUN pip install --no-cache-dir -r requirements.txt
