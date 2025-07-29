@@ -2,6 +2,7 @@ FROM python:3.6
 
 WORKDIR /app/backend
 
+
 COPY requirements.txt /app/backend
 
 # Install app dependencies
